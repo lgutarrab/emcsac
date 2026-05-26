@@ -27,6 +27,10 @@ body {
   line-height: 1.5;
 }
 
+p {
+  text-align: justify;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -48,16 +52,15 @@ a {
   justify-content: space-between;
   gap: 24px;
   padding: 18px clamp(20px, 5vw, 72px);
-  color: #fff;
+  background: rgba(255, 255, 255, 0.96);
+  color: var(--ink);
+  box-shadow: 0 10px 28px rgba(17, 24, 39, 0.08);
+  backdrop-filter: blur(16px);
   transition: background 180ms ease, box-shadow 180ms ease, padding 180ms ease;
 }
 
 .site-header.is-scrolled {
   padding-block: 12px;
-  background: rgba(255, 255, 255, 0.96);
-  color: var(--ink);
-  box-shadow: 0 10px 28px rgba(17, 24, 39, 0.08);
-  backdrop-filter: blur(16px);
 }
 
 .brand {
@@ -125,13 +128,8 @@ a {
   width: 42px;
   height: 42px;
   padding: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--line);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.site-header.is-scrolled .nav-toggle {
-  border-color: var(--line);
   background: #fff;
 }
 
@@ -453,15 +451,17 @@ a {
 
 .contact-panel {
   display: grid;
-  gap: 12px;
+  gap: 10px;
+  justify-self: end;
+  width: min(100%, 420px);
 }
 
 .contact-panel a {
   display: grid;
-  gap: 4px;
+  gap: 2px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 8px;
-  padding: 18px 20px;
+  padding: 12px 18px;
   background: rgba(255, 255, 255, 0.08);
   transition: background 180ms ease, transform 180ms ease;
 }
@@ -495,7 +495,7 @@ a {
 .whatsapp-float {
   position: fixed;
   left: 8px;
-  bottom: 22px;
+  bottom: var(--whatsapp-bottom, 22px);
   z-index: 80;
   display: inline-flex;
   align-items: center;
@@ -644,7 +644,7 @@ a {
   .whatsapp-float {
     left: 12px;
     right: 12px;
-    bottom: 16px;
+    bottom: var(--whatsapp-bottom, 16px);
     min-height: 54px;
     padding-inline: 20px;
     font-size: clamp(0.95rem, 4.4vw, 1.08rem);
