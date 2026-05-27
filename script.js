@@ -55,18 +55,71 @@ const getItemFilters = (item) =>
     .map((value) => value.trim())
     .filter(Boolean);
 
+const getCurrentPageKey = (gallery) => {
+  if (gallery.dataset.galleryPage) return gallery.dataset.galleryPage;
+  const page = window.location.pathname.split("/").pop();
+  return page || "index.html";
+};
+
+const createGalleryItem = (entry) => {
+  const item = document.createElement("article");
+  item.className = "gallery-item";
+  item.dataset.filters = (entry.filters || []).join(" ");
+
+  const caption = entry.caption || "";
+  const media = document.createElement(entry.type === "video" ? "video" : "img");
+  media.src = entry.src;
+
+  if (entry.type === "video") {
+    media.muted = true;
+    media.playsInline = true;
+    media.preload = "metadata";
+    media.setAttribute("aria-label", caption);
+  } else {
+    media.alt = caption;
+    media.loading = "lazy";
+  }
+
+  const captionEl = document.createElement("div");
+  captionEl.className = "gallery-caption";
+  captionEl.textContent = caption;
+
+  item.append(media, captionEl);
+  return item;
+};
+
+const renderGalleryItems = (gallery) => {
+  const pageKey = getCurrentPageKey(gallery);
+  const entries = window.EMCSAC_GALLERY_DATA?.pages?.[pageKey];
+  if (!entries) return;
+
+  gallery.replaceChildren(...entries.map(createGalleryItem));
+};
+
 const updateGalleryPreview = (detail, item) => {
   const preview = detail.querySelector(".gallery-preview");
   if (!preview || !item) return;
 
-  const previewImage = preview.querySelector("img");
+  const previewMedia = preview.querySelector(".gallery-preview-media");
   const previewCaption = preview.querySelector(".gallery-caption");
-  const thumbImage = item.querySelector("img");
+  const thumbMedia = item.querySelector("img, video");
   const thumbCaption = item.querySelector(".gallery-caption");
+  if (!previewMedia || !thumbMedia) return;
 
-  previewImage.src = thumbImage?.src || "";
-  previewImage.alt = thumbImage?.alt || "";
-  previewCaption.textContent = thumbCaption?.textContent || thumbImage?.alt || "";
+  const media = document.createElement(thumbMedia.tagName.toLowerCase());
+  media.src = thumbMedia.currentSrc || thumbMedia.src || "";
+
+  if (media.tagName === "IMG") {
+    media.alt = thumbMedia.alt || "";
+  } else {
+    media.controls = true;
+    media.playsInline = true;
+    media.preload = "metadata";
+  }
+
+  previewMedia.replaceChildren(media);
+  previewCaption.textContent =
+    thumbCaption?.textContent || thumbMedia?.alt || thumbMedia?.getAttribute("aria-label") || "";
 
   detail.querySelectorAll(".gallery-item").forEach((thumb) => {
     thumb.classList.toggle("is-selected", thumb === item);
@@ -86,16 +139,20 @@ const movePreview = (detail, items, delta) => {
   }
 };
 
-  const updateGalleryVisibility = (detail, items) => {
+const updateGalleryVisibility = (detail, items) => {
   const preview = detail.querySelector(".gallery-preview");
   const thumbs = detail.querySelector(".gallery-thumbs");
   const empty = detail.querySelector(".gallery-empty");
+  const navButtons = detail.querySelectorAll(".gallery-nav");
   const visibleItems = items.filter((item) => !item.classList.contains("hidden"));
   const hasVisible = visibleItems.length > 0;
 
   if (empty) empty.style.display = hasVisible ? "none" : "block";
   if (preview) preview.style.display = hasVisible ? "block" : "none";
-    if (thumbs) thumbs.style.display = hasVisible ? "flex" : "none";
+  if (thumbs) thumbs.style.display = hasVisible ? "flex" : "none";
+  navButtons.forEach((button) => {
+    button.style.display = visibleItems.length > 1 ? "flex" : "none";
+  });
 
   if (hasVisible) updateGalleryPreview(detail, visibleItems[0]);
 };
@@ -104,26 +161,30 @@ const initGalleryFilters = () => {
   document.querySelectorAll(".service-detail").forEach((detail) => {
     const tabs = Array.from(detail.querySelectorAll(".service-list li"));
     const gallery = detail.querySelector(".service-gallery");
-    const items = Array.from(detail.querySelectorAll(".gallery-item"));
     if (!tabs.length || !gallery) return;
+
+    renderGalleryItems(gallery);
+    const items = Array.from(detail.querySelectorAll(".gallery-item"));
 
     const preview = document.createElement("div");
     preview.className = "gallery-preview";
-    preview.innerHTML = '<img alt="" /><div class="gallery-caption"></div>';
+    preview.innerHTML = '<div class="gallery-preview-media"></div><div class="gallery-caption"></div>';
     const prevBtn = document.createElement("button");
     prevBtn.className = "gallery-nav gallery-nav-prev";
     prevBtn.type = "button";
-    prevBtn.innerHTML = "‹";
+    prevBtn.setAttribute("aria-label", "Imagen anterior");
+    prevBtn.innerHTML = "&#8249;";
     const nextBtn = document.createElement("button");
     nextBtn.className = "gallery-nav gallery-nav-next";
     nextBtn.type = "button";
-    nextBtn.innerHTML = "›";
+    nextBtn.setAttribute("aria-label", "Imagen siguiente");
+    nextBtn.innerHTML = "&#8250;";
     preview.appendChild(prevBtn);
     preview.appendChild(nextBtn);
 
     const empty = document.createElement("div");
     empty.className = "gallery-empty";
-    empty.textContent = "No hay imágenes disponibles para esta subcategoría.";
+    empty.textContent = "No hay imagenes disponibles para esta subcategoria.";
 
     const thumbs = document.createElement("div");
     thumbs.className = "gallery-thumbs";
