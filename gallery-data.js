@@ -3,6 +3,14 @@ window.EMCSAC_GALLERY_DATA = {
   "pages": {
     "contra-incendios.html": [
       {
+        "src": "Imagenes/SISTEMA CONTRA INCENDIO/Bombas contra incendio/0a1d6975-598f-4bae-823f-1a6e8f27457f.jpg",
+        "type": "image",
+        "filters": [
+          "bombas-contra-incendio"
+        ],
+        "caption": "Bombas contra incendio"
+      },
+      {
         "src": "Imagenes/SISTEMA CONTRA INCENDIO/Bombas contra incendio/1b036382-52cf-4c99-8582-6e1e72cec6d6.jpg",
         "type": "image",
         "filters": [
@@ -201,14 +209,6 @@ window.EMCSAC_GALLERY_DATA = {
           "limpieza-cisterna-contra-incendio"
         ],
         "caption": "Limpieza cisterna contra incendio"
-      },
-      {
-        "src": "Imagenes/SISTEMA CONTRA INCENDIO/Puertas cortafuego/0a1d6975-598f-4bae-823f-1a6e8f27457f.jpg",
-        "type": "image",
-        "filters": [
-          "puertas-cortafuego"
-        ],
-        "caption": "Puertas cortafuego"
       }
     ],
     "gasfiteria.html": [
@@ -342,48 +342,9 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Damper motorizado"
       },
-      {
-        "src": "Imagenes/MECANICO/Damper motorizado/WhatsApp Image 2026-05-04 at 11.00.05 AM.jpeg",
-        "type": "image",
-        "filters": [
-          "damper-motorizado"
-        ],
-        "caption": "Damper motorizado"
-      },
-      {
-        "src": "Imagenes/MECANICO/Damper motorizado/WhatsApp Image 2026-05-04 at 11.00.09 AM (1).jpeg",
-        "type": "image",
-        "filters": [
-          "damper-motorizado"
-        ],
-        "caption": "Damper motorizado"
-      },
-      {
-        "src": "Imagenes/MECANICO/Extractores de monóxido de carbono/2e32e909-1f78-440f-a337-8895bc18f6df.jpg",
-        "type": "image",
-        "filters": [
-          "extractores-de-monoxido-de-carbono"
-        ],
-        "caption": "Extractores de monóxido de carbono"
-      },
-      {
-        "src": "Imagenes/MECANICO/Extractores de monóxido de carbono/407a82ad-6100-4087-800b-b7342ca991ed.jpg",
-        "type": "image",
-        "filters": [
-          "extractores-de-monoxido-de-carbono"
-        ],
-        "caption": "Extractores de monóxido de carbono"
-      },
+
       {
         "src": "Imagenes/MECANICO/Extractores de monóxido de carbono/748da243-5180-43ba-a6c3-c1d045f2a6ba.jpg",
-        "type": "image",
-        "filters": [
-          "extractores-de-monoxido-de-carbono"
-        ],
-        "caption": "Extractores de monóxido de carbono"
-      },
-      {
-        "src": "Imagenes/MECANICO/Extractores de monóxido de carbono/c54e2c48-1a6e-4468-aef2-0201e2b6ee8e.jpg",
         "type": "image",
         "filters": [
           "extractores-de-monoxido-de-carbono"
@@ -407,38 +368,6 @@ window.EMCSAC_GALLERY_DATA = {
         "caption": "Extractores de monóxido de carbono"
       },
       {
-        "src": "Imagenes/MECANICO/Extractores de monóxido de carbono/WhatsApp Image 2026-04-27 at 5.47.01 PM (1).jpeg",
-        "type": "image",
-        "filters": [
-          "extractores-de-monoxido-de-carbono"
-        ],
-        "caption": "Extractores de monóxido de carbono"
-      },
-      {
-        "src": "Imagenes/MECANICO/Extractores de monóxido de carbono/WhatsApp Image 2026-04-27 at 5.47.02 PM (3).jpeg",
-        "type": "image",
-        "filters": [
-          "extractores-de-monoxido-de-carbono"
-        ],
-        "caption": "Extractores de monóxido de carbono"
-      },
-      {
-        "src": "Imagenes/MECANICO/Extractores de monóxido de carbono/WhatsApp Image 2026-04-27 at 5.48.11 PM (2).jpeg",
-        "type": "image",
-        "filters": [
-          "extractores-de-monoxido-de-carbono"
-        ],
-        "caption": "Extractores de monóxido de carbono"
-      },
-      {
-        "src": "Imagenes/MECANICO/Jet Fan/WhatsApp Image 2026-05-04 at 10.50.36 AM (7).jpeg",
-        "type": "image",
-        "filters": [
-          "jet-fan"
-        ],
-        "caption": "Jet Fan"
-      },
-      {
         "src": "Imagenes/MECANICO/Jet Fan/WhatsApp Image 2026-05-04 at 10.50.36 AM (8).jpeg",
         "type": "image",
         "filters": [
@@ -446,14 +375,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Jet Fan"
       },
-      {
-        "src": "Imagenes/MECANICO/Jet Fan/WhatsApp Image 2026-05-04 at 10.50.37 AM (3).jpeg",
-        "type": "image",
-        "filters": [
-          "jet-fan"
-        ],
-        "caption": "Jet Fan"
-      },
+
       {
         "src": "Imagenes/MECANICO/Jet Fan/WhatsApp Image 2026-05-04 at 10.50.38 AM (1).jpeg",
         "type": "image",
@@ -470,14 +392,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Jet Fan"
       },
-      {
-        "src": "Imagenes/MECANICO/Jet Fan/WhatsApp Image 2026-05-04 at 10.50.38 AM (5).jpeg",
-        "type": "image",
-        "filters": [
-          "jet-fan"
-        ],
-        "caption": "Jet Fan"
-      },
+
       {
         "src": "Imagenes/MECANICO/Presurizadores de aire de escalera/e94dd971-9f24-4d80-9951-c23784f6076b.jpg",
         "type": "image",
@@ -495,60 +410,12 @@ window.EMCSAC_GALLERY_DATA = {
         "caption": "Presurizadores de aire de escalera"
       },
       {
-        "src": "Imagenes/MECANICO/Presurizadores de aire de escalera/WhatsApp Image 2026-04-27 at 5.46.49 PM (1).jpeg",
-        "type": "image",
-        "filters": [
-          "presurizadores-de-aire-de-escalera"
-        ],
-        "caption": "Presurizadores de aire de escalera"
-      },
-      {
-        "src": "Imagenes/MECANICO/Presurizadores de aire de escalera/WhatsApp Image 2026-04-27 at 5.46.50 PM (1).jpeg",
-        "type": "image",
-        "filters": [
-          "presurizadores-de-aire-de-escalera"
-        ],
-        "caption": "Presurizadores de aire de escalera"
-      },
-      {
         "src": "Imagenes/MECANICO/Presurizadores de aire de escalera/WhatsApp Image 2026-04-27 at 5.46.50 PM (2).jpeg",
         "type": "image",
         "filters": [
           "presurizadores-de-aire-de-escalera"
         ],
         "caption": "Presurizadores de aire de escalera"
-      },
-      {
-        "src": "Imagenes/MECANICO/Presurizadores de aire de escalera/WhatsApp Image 2026-04-27 at 5.46.52 PM.jpeg",
-        "type": "image",
-        "filters": [
-          "presurizadores-de-aire-de-escalera"
-        ],
-        "caption": "Presurizadores de aire de escalera"
-      },
-      {
-        "src": "Imagenes/MECANICO/Presurizadores de aire de escalera/WhatsApp Image 2026-04-27 at 5.46.57 PM (1).jpeg",
-        "type": "image",
-        "filters": [
-          "presurizadores-de-aire-de-escalera"
-        ],
-        "caption": "Presurizadores de aire de escalera"
-      },
-      {
-        "src": "Imagenes/MECANICO/Ventiladores centrífugos/WhatsApp Image 2026-05-04 at 10.50.39 AM (1).jpeg",
-        "type": "image",
-        "filters": [
-          "ventiladores-centrifugos"
-        ],
-        "caption": "Ventiladores centrífugos"
-      },
-      {
-        "src": "Imagenes/MECANICO/Ventiladores centrífugos/WhatsApp Image 2026-05-04 at 10.50.39 AM (2).jpeg",
-        "type": "image",
-        "filters": [
-          "ventiladores-centrifugos"
-        ],
-        "caption": "Ventiladores centrífugos"
       },
       {
         "src": "Imagenes/MECANICO/Ventiladores centrífugos/WhatsApp Image 2026-05-04 at 10.50.39 AM (4).jpeg",
@@ -560,22 +427,6 @@ window.EMCSAC_GALLERY_DATA = {
       },
       {
         "src": "Imagenes/MECANICO/Ventiladores centrífugos/WhatsApp Image 2026-05-04 at 10.50.39 AM (5).jpeg",
-        "type": "image",
-        "filters": [
-          "ventiladores-centrifugos"
-        ],
-        "caption": "Ventiladores centrífugos"
-      },
-      {
-        "src": "Imagenes/MECANICO/Ventiladores centrífugos/WhatsApp Image 2026-05-04 at 10.50.39 AM (6).jpeg",
-        "type": "image",
-        "filters": [
-          "ventiladores-centrifugos"
-        ],
-        "caption": "Ventiladores centrífugos"
-      },
-      {
-        "src": "Imagenes/MECANICO/Ventiladores centrífugos/WhatsApp Image 2026-05-04 at 10.50.39 AM.jpeg",
         "type": "image",
         "filters": [
           "ventiladores-centrifugos"
@@ -706,22 +557,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Tablero general"
       },
-      {
-        "src": "Imagenes/ELECTRICO/Tablero general/2ee6df58-fde6-436e-88f6-6d9fb65bb540.jpg",
-        "type": "image",
-        "filters": [
-          "tablero-general"
-        ],
-        "caption": "Tablero general"
-      },
-      {
-        "src": "Imagenes/ELECTRICO/Tablero general/7d5d2ceb-ba82-400f-be99-f9ab9732eaea.jpg",
-        "type": "image",
-        "filters": [
-          "tablero-general"
-        ],
-        "caption": "Tablero general"
-      },
+      
       {
         "src": "Imagenes/ELECTRICO/Tablero general/07e65219-e357-43ef-9b0b-3514fb0abca7.jpg",
         "type": "image",
@@ -730,22 +566,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Tablero general"
       },
-      {
-        "src": "Imagenes/ELECTRICO/Tablero general/10dadd57-9128-4511-8321-95391c84f425.jpg",
-        "type": "image",
-        "filters": [
-          "tablero-general"
-        ],
-        "caption": "Tablero general"
-      },
-      {
-        "src": "Imagenes/ELECTRICO/Tablero general/13a76f8c-1ffa-4b89-b572-c884c5dfc712.jpg",
-        "type": "image",
-        "filters": [
-          "tablero-general"
-        ],
-        "caption": "Tablero general"
-      },
+      
       {
         "src": "Imagenes/ELECTRICO/Tablero general/761a925d-4d3b-42b2-86e5-7b30e4fc0fa0.jpg",
         "type": "image",
@@ -874,46 +695,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Tableros de subestación"
       },
-      {
-        "src": "Imagenes/ELECTRICO/Tableros eléctricos/5bb2d8ce-4c7f-4e25-97e9-6d4548fdef8c.jpg",
-        "type": "image",
-        "filters": [
-          "tableros-electricos"
-        ],
-        "caption": "Tableros eléctricos"
-      },
-      {
-        "src": "Imagenes/ELECTRICO/Tableros eléctricos/9fc9e0f7-4b9a-48d7-9c05-584084c0b9a3.jpg",
-        "type": "image",
-        "filters": [
-          "tableros-electricos"
-        ],
-        "caption": "Tableros eléctricos"
-      },
-      {
-        "src": "Imagenes/ELECTRICO/Tableros eléctricos/97bbb06f-08f3-4a4d-886f-bb1f7ce1c73e.jpg",
-        "type": "image",
-        "filters": [
-          "tableros-electricos"
-        ],
-        "caption": "Tableros eléctricos"
-      },
-      {
-        "src": "Imagenes/ELECTRICO/Tableros eléctricos/3992a639-6ecd-4999-8134-9a8049186c9c.jpg",
-        "type": "image",
-        "filters": [
-          "tableros-electricos"
-        ],
-        "caption": "Tableros eléctricos"
-      },
-      {
-        "src": "Imagenes/ELECTRICO/Tableros eléctricos/a74342e1-ff56-420c-8300-ef1eaf946f62.jpg",
-        "type": "image",
-        "filters": [
-          "tableros-electricos"
-        ],
-        "caption": "Tableros eléctricos"
-      },
+     
       {
         "src": "Imagenes/ELECTRICO/Tableros eléctricos/b56e537e-b676-4924-bc03-2d5e50419fc1.jpg",
         "type": "image",
@@ -922,14 +704,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Tableros eléctricos"
       },
-      {
-        "src": "Imagenes/ELECTRICO/Tableros eléctricos/b52074bd-f6b7-42f8-a6f4-35e78350e37a.jpg",
-        "type": "image",
-        "filters": [
-          "tableros-electricos"
-        ],
-        "caption": "Tableros eléctricos"
-      },
+      
       {
         "src": "Imagenes/ELECTRICO/Tableros eléctricos/bf3cebd4-9039-4e4e-89ff-fc24acb87db8.jpg",
         "type": "image",
@@ -966,69 +741,8 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Sistema tanque elevado"
       },
-      {
-        "src": "Imagenes/HIDRAULICO/Bombas de agua/SISTEMA TANQUE ELEVADO/2e77fbd5-a813-4158-a4cb-7efd83e59ec6.jpg",
-        "type": "image",
-        "filters": [
-          "bombas-de-agua",
-          "sistema-tanque-elevado"
-        ],
-        "caption": "Sistema tanque elevado"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Bombas de agua/SISTEMA TANQUE ELEVADO/3cabae13-6de5-476e-96f2-5aec5bd0cbe1.jpg",
-        "type": "image",
-        "filters": [
-          "bombas-de-agua",
-          "sistema-tanque-elevado"
-        ],
-        "caption": "Sistema tanque elevado"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Bombas de agua/SISTEMA TANQUE ELEVADO/6b3e8670-a68a-4b4f-bc10-4a2f7d586e49.jpg",
-        "type": "image",
-        "filters": [
-          "bombas-de-agua",
-          "sistema-tanque-elevado"
-        ],
-        "caption": "Sistema tanque elevado"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Bombas de agua/SISTEMA TANQUE ELEVADO/8a284c59-133c-4de1-a24b-61a809806e10.jpg",
-        "type": "image",
-        "filters": [
-          "bombas-de-agua",
-          "sistema-tanque-elevado"
-        ],
-        "caption": "Sistema tanque elevado"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Bombas de agua/SISTEMA TANQUE ELEVADO/8c7071c5-09b5-4a90-bb47-ae319079e310.jpg",
-        "type": "image",
-        "filters": [
-          "bombas-de-agua",
-          "sistema-tanque-elevado"
-        ],
-        "caption": "Sistema tanque elevado"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Bombas de agua/SISTEMA TANQUE ELEVADO/518eb687-7070-4db5-898b-b7c9319d1484.jpg",
-        "type": "image",
-        "filters": [
-          "bombas-de-agua",
-          "sistema-tanque-elevado"
-        ],
-        "caption": "Sistema tanque elevado"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Bombas de agua/SISTEMA TANQUE ELEVADO/716546a6-daee-49cc-9c46-3a8f84634354.jpg",
-        "type": "image",
-        "filters": [
-          "bombas-de-agua",
-          "sistema-tanque-elevado"
-        ],
-        "caption": "Sistema tanque elevado"
-      },
+
+
       {
         "src": "Imagenes/HIDRAULICO/Bombas de agua/SISTEMA TANQUE ELEVADO/a3685f9b-668c-497a-9324-dcd015ed37e1.jpg",
         "type": "image",
@@ -1038,24 +752,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Sistema tanque elevado"
       },
-      {
-        "src": "Imagenes/HIDRAULICO/Bombas de agua/SISTEMA TANQUE ELEVADO/c5d33a14-abd0-484b-b2f8-b45366088d0e.jpg",
-        "type": "image",
-        "filters": [
-          "bombas-de-agua",
-          "sistema-tanque-elevado"
-        ],
-        "caption": "Sistema tanque elevado"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Bombas de agua/SISTEMA TANQUE ELEVADO/e8e2b704-ff2f-4725-ade1-4e766c28a95d.jpg",
-        "type": "image",
-        "filters": [
-          "bombas-de-agua",
-          "sistema-tanque-elevado"
-        ],
-        "caption": "Sistema tanque elevado"
-      },
+
       {
         "src": "Imagenes/HIDRAULICO/Limpieza de cisterna de agua potable/5b0ed12a-52a3-4aae-9c53-bfe7a4cd226d.jpg",
         "type": "image",
@@ -1072,30 +769,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Limpieza de cisterna de agua potable"
       },
-      {
-        "src": "Imagenes/HIDRAULICO/Limpieza de cisterna de agua potable/76d15b4b-81d0-4670-a073-67755566a0d9.jpg",
-        "type": "image",
-        "filters": [
-          "limpieza-de-cisterna-de-agua-potable"
-        ],
-        "caption": "Limpieza de cisterna de agua potable"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Limpieza de cisterna de agua potable/ba4b8109-39f2-488a-b862-2480f8d68bcb.jpg",
-        "type": "image",
-        "filters": [
-          "limpieza-de-cisterna-de-agua-potable"
-        ],
-        "caption": "Limpieza de cisterna de agua potable"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Limpieza de cisterna de agua potable/e11d2f92-a9fa-494e-8e2a-fee597d3946a.jpg",
-        "type": "image",
-        "filters": [
-          "limpieza-de-cisterna-de-agua-potable"
-        ],
-        "caption": "Limpieza de cisterna de agua potable"
-      },
+      
       {
         "src": "Imagenes/HIDRAULICO/Limpieza de cisterna de agua potable/edbd8d15-792a-4aca-8a77-7ba6a8245a2e.jpg",
         "type": "image",
@@ -1104,22 +778,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Limpieza de cisterna de agua potable"
       },
-      {
-        "src": "Imagenes/HIDRAULICO/Limpieza de pozos sépticos y sumideros/WhatsApp Image 2026-03-31 at 12.08.20 PM (1).jpeg",
-        "type": "image",
-        "filters": [
-          "limpieza-de-pozos-septicos-y-sumideros"
-        ],
-        "caption": "Limpieza de pozos sépticos y sumideros"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Limpieza de pozos sépticos y sumideros/WhatsApp Image 2026-03-31 at 12.08.26 PM (1).jpeg",
-        "type": "image",
-        "filters": [
-          "limpieza-de-pozos-septicos-y-sumideros"
-        ],
-        "caption": "Limpieza de pozos sépticos y sumideros"
-      },
+
       {
         "src": "Imagenes/HIDRAULICO/Limpieza de pozos sépticos y sumideros/WhatsApp Image 2026-03-31 at 12.08.26 PM (3).jpeg",
         "type": "image",
@@ -1136,46 +795,8 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Limpieza de pozos sépticos y sumideros"
       },
-      {
-        "src": "Imagenes/HIDRAULICO/Limpieza de pozos sépticos y sumideros/WhatsApp Image 2026-03-31 at 12.08.26 PM (6).jpeg",
-        "type": "image",
-        "filters": [
-          "limpieza-de-pozos-septicos-y-sumideros"
-        ],
-        "caption": "Limpieza de pozos sépticos y sumideros"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Limpieza de pozos sépticos y sumideros/WhatsApp Image 2026-03-31 at 12.08.27 PM (4).jpeg",
-        "type": "image",
-        "filters": [
-          "limpieza-de-pozos-septicos-y-sumideros"
-        ],
-        "caption": "Limpieza de pozos sépticos y sumideros"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/0e5b745b-8c12-47ba-bf3a-4eb442441b6c.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/3a1e2b84-51f3-4b8d-88fb-4662c45c7667.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/3c19a690-696c-4b44-9814-e8e7fee7068c.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
+      
+
       {
         "src": "Imagenes/HIDRAULICO/Sistema de presión constante/3e5461be-eebb-4ea3-829b-6d73200426bf.jpg",
         "type": "image",
@@ -1184,22 +805,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Sistema de presión constante"
       },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/4faa44a3-b59e-4b34-a1d7-611dd30434a4.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/6b07c809-6793-48d5-992e-b99619ed166d.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
+
       {
         "src": "Imagenes/HIDRAULICO/Sistema de presión constante/19ccbcbe-3c1e-43d8-9ee4-a415fb13e21c.jpg",
         "type": "image",
@@ -1208,38 +814,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Sistema de presión constante"
       },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/019e0e58-c225-4ee5-8ea9-afe707631e4c.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/36a0fb80-6b26-4aed-8e44-0f2fc74ad616.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/933f52fb-6f6e-410c-9fd6-66af2f159824.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/2136c4b4-ad95-4fe3-8b42-23892e4544e7.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
+      
       {
         "src": "Imagenes/HIDRAULICO/Sistema de presión constante/a2d5ab8f-9d63-4ddc-abeb-2b81f010fd38.jpg",
         "type": "image",
@@ -1248,102 +823,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Sistema de presión constante"
       },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/a6aa3e17-aa0c-42d4-ab81-c79dd36c4731.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/b6ef2189-c467-4bbc-b8c1-a085d28200cd.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/cb631e78-53cc-4aa3-a2e4-a4ca20238bf8.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/ce6d4b94-0abf-4138-9f75-007304707c5b.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/ce973788-9dc1-4714-becb-56f536c55083.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/d654bbbb-df13-43dd-8839-6966b6bfb043.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/e5f5891e-782a-4c5d-aa06-e8333efa381a.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/eb8eaf43-60f7-4797-8411-82aff1399ae1.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/f6fe2852-8220-47b3-95df-73fe2df4cb4d.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/f52a55b2-b057-4a49-a818-3d3060fa9f15.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/Screenshot_1.png",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema de presión constante/WhatsApp Image 2021-05-06 at 10.18.56 AM.jpeg",
-        "type": "image",
-        "filters": [
-          "sistema-de-presion-constante"
-        ],
-        "caption": "Sistema de presión constante"
-      },
+      
       {
         "src": "Imagenes/HIDRAULICO/Sistema hidroneumático/382421a6-f36c-4e45-93ff-b03252d68623.jpg",
         "type": "image",
@@ -1368,46 +848,9 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Sistema hidroneumático"
       },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema séptico/1e3e1de0-2291-4787-9194-0ca16180f999.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-septico"
-        ],
-        "caption": "Sistema séptico"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema séptico/2bb303f7-45ac-4b52-9409-5c72afabc16e.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-septico"
-        ],
-        "caption": "Sistema séptico"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema séptico/7f0c7875-00cf-41db-b7cd-42fac8582d74.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-septico"
-        ],
-        "caption": "Sistema séptico"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema séptico/8c3a1929-1392-45d3-b6a6-cc31cca561db.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-septico"
-        ],
-        "caption": "Sistema séptico"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema séptico/18d420a6-f169-42dd-9210-177e845e2b42.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-septico"
-        ],
-        "caption": "Sistema séptico"
-      },
+      
+
+      
       {
         "src": "Imagenes/HIDRAULICO/Sistema séptico/31f23861-1e8c-4d23-b335-592324a1e6b4.jpg",
         "type": "image",
@@ -1416,54 +859,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Sistema séptico"
       },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema séptico/64e36d2c-b3e1-48e5-a097-72a6519647d1.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-septico"
-        ],
-        "caption": "Sistema séptico"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema séptico/317db1a7-a153-4c2b-b602-5971eecc89d0.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-septico"
-        ],
-        "caption": "Sistema séptico"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema séptico/433ecc46-4d1b-4e7f-970b-7b4871fe0831.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-septico"
-        ],
-        "caption": "Sistema séptico"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema séptico/6583d9f1-e3f9-44a3-9f44-84debbdf21d6.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-septico"
-        ],
-        "caption": "Sistema séptico"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema séptico/21349d85-c1b2-40fc-b16a-b6b11cedd938.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-septico"
-        ],
-        "caption": "Sistema séptico"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema séptico/a5c99283-a1b4-4b2a-9aa9-04d5793a5fff.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-septico"
-        ],
-        "caption": "Sistema séptico"
-      },
+      
       {
         "src": "Imagenes/HIDRAULICO/Sistema séptico/d5a7218f-4a1a-4e23-8568-95c19dc4137f.jpg",
         "type": "image",
@@ -1488,30 +884,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Sistema séptico"
       },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema sumidero/5b176f3b-e1e3-4cfb-a7bf-030518c3b9eb.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-sumidero"
-        ],
-        "caption": "Sistema sumidero"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema sumidero/5f57ddfc-c475-43e4-a7d2-4c240d3e1acd.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-sumidero"
-        ],
-        "caption": "Sistema sumidero"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema sumidero/6b9cd3ef-4967-4a9c-aaae-6b0600b72630.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-sumidero"
-        ],
-        "caption": "Sistema sumidero"
-      },
+
       {
         "src": "Imagenes/HIDRAULICO/Sistema sumidero/8e31353d-8f33-4826-b48c-ebcd0fa0d854.jpg",
         "type": "image",
@@ -1520,38 +893,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Sistema sumidero"
       },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema sumidero/80ee517b-4521-4665-8701-18cc5f62dc30.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-sumidero"
-        ],
-        "caption": "Sistema sumidero"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema sumidero/3062d4be-b9da-423f-aa4d-0a3c5fe1b8a4.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-sumidero"
-        ],
-        "caption": "Sistema sumidero"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema sumidero/8003db66-e67a-48a6-bab4-a35488b41f7f.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-sumidero"
-        ],
-        "caption": "Sistema sumidero"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema sumidero/9137f467-cab3-413f-8a34-a455941f36ee.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-sumidero"
-        ],
-        "caption": "Sistema sumidero"
-      },
+      
       {
         "src": "Imagenes/HIDRAULICO/Sistema sumidero/511047ef-a26b-4490-8894-bf1a99b1373b.jpg",
         "type": "image",
@@ -1560,38 +902,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Sistema sumidero"
       },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema sumidero/772728bf-bf94-4784-93d3-4ebc51d5d781.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-sumidero"
-        ],
-        "caption": "Sistema sumidero"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema sumidero/adc86da7-9687-44b6-b9b5-b1361e57ff25.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-sumidero"
-        ],
-        "caption": "Sistema sumidero"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema sumidero/bc683c50-cf59-432b-ba7f-1d25d60ae8e3.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-sumidero"
-        ],
-        "caption": "Sistema sumidero"
-      },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema sumidero/c5f77f2f-0456-440b-b5cc-1ed70ebaf6d3.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-sumidero"
-        ],
-        "caption": "Sistema sumidero"
-      },
+      
       {
         "src": "Imagenes/HIDRAULICO/Sistema sumidero/c3745b81-ce84-43f0-80f5-19682ac95a29.jpg",
         "type": "image",
@@ -1600,14 +911,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Sistema sumidero"
       },
-      {
-        "src": "Imagenes/HIDRAULICO/Sistema sumidero/e313eda7-6163-4a69-a8ee-5c27c19b396c.jpg",
-        "type": "image",
-        "filters": [
-          "sistema-sumidero"
-        ],
-        "caption": "Sistema sumidero"
-      }
+ 
     ]
   }
 };
