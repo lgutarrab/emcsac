@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 96" role="img" aria-labelledby="title">
+  <title id="title">Pedrollo</title>
+  <g>
+    <circle cx="48" cy="48" r="17" fill="#f21824"/>
+    <path d="M30 43h36M31 49h34M34 55h28" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+    <text x="75" y="58" fill="#082d87" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="900" font-style="italic" letter-spacing="-2">pedrollo</text>
+    <circle cx="245" cy="33" r="3" fill="none" stroke="#082d87" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -14,10 +14,13 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="assets/emc-logo.jpeg" />
   <link rel="preconnect" href="https://images.unsplash.com" />
+  <link rel="icon" href="assets/emc-logo-transparent.png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+  <a class="skip-link" href="#inicio">Saltar al contenido</a>
+
   <header class="site-header" data-header>
     <a class="brand" href="#inicio" aria-label="Ir al inicio">
       <img class="brand-logo" src="assets/emc-logo-transparent.png" alt="Logo de EMCSAC" />
@@ -27,7 +30,7 @@
       </span>
     </a>
 
-    <button class="nav-toggle" type="button" aria-label="Abrir menu" data-nav-toggle>
+    <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
       <span></span>
       <span></span>
       <span></span>
@@ -46,6 +49,7 @@
         </div>
       </div>
 
+
       <a href="#contacto">Contacto</a>
     </nav>
   </header>
@@ -58,14 +62,13 @@
         <p class="eyebrow">EMCSAC Servicios</p>
         <h1>Electromecánica & Constructores SAC</h1>
         <p class="hero-copy">
-          Mantenimiento preventivo integral para edificios, condominios, empresas e industrias.
-          Atendemos sistemas eléctricos, electromecánicos, sanitarios, seguridad contra incendios
-          e infraestructura crítica con personal técnico especializado.
+          Mantenimiento preventivo integral para edificios, condominios, empresas e industrias que necesitan continuidad operativa y respuesta técnica confiable.
         </p>
         <div class="hero-actions">
           <a class="button primary" href="#contacto">Solicitar cotización</a>
           <a class="button secondary" href="#servicios">Ver servicios</a>
         </div>
+        
       </div>
     </section>
 
@@ -113,7 +116,7 @@
         <article class="service-card">
           <a href="servicios-mecanicos.html">
             <div class="service-image">
-              <img src="assets/services/categoria01.jpeg" alt="Mantenimiento de equipos mecánicos" />
+              <img src="assets/services/categoria01.jpg" alt="Mantenimiento de equipos mecánicos" />
             </div>
             <div class="service-body">
               <span>01</span>
@@ -140,7 +143,7 @@
         <article class="service-card">
           <a href="sistema-piscina.html">
             <div class="service-image">
-              <img src="assets/services/categoria03.jpeg" alt="Sistema piscina" />
+              <img src="assets/services/categoria03.jpg" alt="Sistema piscina" />
             </div>
             <div class="service-body">
               <span>03</span>
@@ -153,7 +156,7 @@
         <article class="service-card">
           <a href="sistemas-electricos.html">
             <div class="service-image">
-              <img src="assets/services/tableros-electricos.jpg" alt="Sistemas eléctricos" />
+              <img src="assets/services/categoria04.jpg" alt="Sistemas eléctricos" />
             </div>
             <div class="service-body">
               <span>04</span>
@@ -167,7 +170,7 @@
         <article class="service-card">
           <a href="contra-incendios.html">
             <div class="service-image">
-              <img src="assets/services/sistema-contra-incendio.jpg" alt="Sistemas contra incendio" />
+              <img src="assets/services/categoria05.jpg" alt="Sistemas contra incendio" />
             </div>
             <div class="service-body">
               <span>05</span>
@@ -181,7 +184,7 @@
         <article class="service-card">
           <a href="gasfiteria.html">
             <div class="service-image">
-              <img src="assets/services/gasfiteria.jpg" alt="Gasfitería" />
+              <img src="assets/services/categoria06.jpg" alt="Gasfitería" />
             </div>
             <div class="service-body">
               <span>06</span>
@@ -194,34 +197,20 @@
       </div>
     </section>
 
-    <section class="process" id="metodo">
+    <section class="process sector-overview" id="entornos">
       <div class="process-inner">
         <div>
-          <div class="section-kicker">Metodo de trabajo</div>
-          <h2>Orden técnico para cada mantenimiento.</h2>
-          <p>
-            Cada servicio se trabaja con evaluacion previa, programación, ejecución segura y reporte
-            de hallazgos para que el cliente tenga control sobre el estado de sus instalaciones.
-          </p>
+          <div class="section-kicker">Entornos operativos</div>
+          <h2>Servicios preparados para distintos espacios de trabajo.</h2>
         </div>
-        <ol class="process-list">
-          <li>
-            <strong>Diagnóstico</strong>
-            <span>Inspección del sistema, registro de condiciones y detección de riesgos.</span>
-          </li>
-          <li>
-            <strong>Propuesta</strong>
-            <span>Alcance del servicio, frecuencia sugerida, materiales y tiempo de atención.</span>
-          </li>
-          <li>
-            <strong>Ejecución</strong>
-            <span>Personal técnico, herramientas adecuadas y control de seguridad en campo.</span>
-          </li>
-          <li>
-            <strong>Entrega</strong>
-            <span>Pruebas, conformidad, evidencia del trabajo y recomendaciones preventivas.</span>
-          </li>
-        </ol>
+        <div class="sector-grid">
+          <div>Condominios y edificios</div>
+          <div>Empresas e industrias</div>
+          <div>Centros comerciales</div>
+          <div>Oficinas corporativas</div>
+          <div>Estacionamientos</div>
+          <div>Instituciones privadas</div>
+        </div>
       </div>
     </section>
 
@@ -232,36 +221,58 @@
           <h2>Servicios preparados para distintos entornos operativos.</h2>
         </div>
       </div>
-      <div class="sector-grid">
-        <div>Condominios y edificios</div>
-        <div>Empresas e industrias</div>
-        <div>Centros comerciales</div>
-        <div>Oficinas corporativas</div>
-        <div>Estacionamientos</div>
-        <div>Instituciones privadas</div>
+      <div class="brand-carousel" aria-label="Marcas de bombas y equipos" data-brand-carousel>
+        <div class="brand-track">
+          <img src="assets/brands/brand1.png" alt="ESPA" />
+          <img src="assets/brands/brand2.png" alt="Pedrollo" />
+          <img src="assets/brands/brand3.png" alt="LEO" />
+          <img src="assets/brands/brand4.png" alt="Hidrostal" />
+          <img src="assets/brands/brand5.png" alt="Schneider Motobombas" />
+        </div>
       </div>
     </section>
 
     <section class="cta" id="contacto">
       <div class="cta-content">
-        <div>
+        <div class="contact-copy">
           <div class="section-kicker">Cotiza con EMCSAC</div>
           <h2>Cuéntanos que servicio necesitas y coordinamos una evaluación técnica.</h2>
         </div>
         <div class="contact-panel">
-          <a href="https://wa.me/51921986590?text=Hola%20EMCSAC%2C%20quisiera%20solicitar%20informacion%20sobre%20sus%20servicios."
-            target="_blank" rel="noreferrer">
-            <span>WhatsApp</span>
-            <strong>+51 921 986 590</strong>
-          </a>
-          <a href="mailto:servicios@emcsac.com">
-            <span>Correo</span>
-            <strong>servicios@emcsac.com</strong>
-          </a>
-          <a href="https://www.emcsac.com" target="_blank" rel="noreferrer">
-            <span>Web</span>
-            <strong>www.emcsac.com</strong>
-          </a>
+          <div class="contact-links" aria-label="Canales de contacto">
+            <a href="https://wa.me/51921986590?text=Hola%20EMCSAC%2C%20quisiera%20solicitar%20informacion%20sobre%20sus%20servicios."
+              target="_blank" rel="noreferrer">
+              <span>WhatsApp</span>
+              <strong>+51 921 986 590</strong>
+            </a>
+            <a href="mailto:servicios@emcsac.com">
+              <span>Correo</span>
+              <strong>servicios@emcsac.com</strong>
+            </a>
+            <div class="contact-social">
+              <span>Redes sociales</span>
+              <div class="social-links" aria-label="Redes sociales">
+                <a href="https://www.facebook.com/emcsacpe/" target="_blank" rel="noreferrer"
+                  aria-label="Facebook de EMCSAC">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+                    <path d="M14.2 8.2V6.7c0-.7.3-1.1 1.2-1.1h1.8V2.4c-.9-.1-1.7-.2-2.5-.2-2.8 0-4.6 1.7-4.6 4.7v1.3H7.4v3.5h2.7v10.1h4.1V11.7h2.8l.5-3.5h-3.3Z" />
+                  </svg>
+                </a>
+                <a href="https://www.tiktok.com/@emc.sac" target="_blank" rel="noreferrer"
+                  aria-label="TikTok de EMCSAC">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+                    <path d="M15.8 2.4c.3 2.5 1.8 4 4.1 4.2v3.6a7.4 7.4 0 0 1-4-1.2v6.3c0 4-2.7 6.5-6.4 6.5-3.3 0-5.8-2.3-5.8-5.5 0-3.6 2.7-5.7 6.4-5.7.4 0 .7 0 1 .1v3.7a4 4 0 0 0-1.1-.2c-1.4 0-2.3.8-2.3 2 0 1.1.9 1.9 2.1 1.9 1.4 0 2.2-.8 2.2-2.5V2.4h3.8Z" />
+                  </svg>
+                </a>
+                <a href="https://www.instagram.com/electromecanica__constructores/" target="_blank" rel="noreferrer"
+                  aria-label="Instagram de EMCSAC">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+                    <path d="M7.2 2.8h9.6a4.4 4.4 0 0 1 4.4 4.4v9.6a4.4 4.4 0 0 1-4.4 4.4H7.2a4.4 4.4 0 0 1-4.4-4.4V7.2a4.4 4.4 0 0 1 4.4-4.4Zm0 3.5c-.5 0-.9.4-.9.9v9.6c0 .5.4.9.9.9h9.6c.5 0 .9-.4.9-.9V7.2c0-.5-.4-.9-.9-.9H7.2Zm4.8 2.1a3.6 3.6 0 1 1 0 7.2 3.6 3.6 0 0 1 0-7.2Zm0 2.4a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4Zm4.1-2.8a1 1 0 1 1 0 2.1 1 1 0 0 1 0-2.1Z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -279,7 +290,7 @@
       <path
         d="M16.02 3.2c-7.02 0-12.73 5.64-12.73 12.58 0 2.28.62 4.5 1.8 6.45l-1.9 6.57 6.78-1.78a12.9 12.9 0 0 0 6.05 1.51c7.02 0 12.73-5.64 12.73-12.58S23.04 3.2 16.02 3.2Zm0 23.19c-1.96 0-3.88-.53-5.55-1.54l-.4-.24-4.02 1.06 1.08-3.86-.26-.4a10.4 10.4 0 0 1-1.62-5.63c0-5.76 4.83-10.44 10.77-10.44s10.77 4.68 10.77 10.44-4.83 10.61-10.77 10.61Zm5.9-7.82c-.32-.16-1.9-.93-2.2-1.04-.3-.11-.52-.16-.74.16-.22.32-.85 1.04-1.04 1.25-.19.22-.38.24-.7.08-.32-.16-1.36-.5-2.6-1.58-.96-.85-1.61-1.9-1.8-2.22-.19-.32-.02-.5.14-.66.15-.15.32-.38.48-.57.16-.19.22-.32.32-.54.11-.22.05-.4-.03-.57-.08-.16-.74-1.76-1.01-2.41-.27-.63-.54-.54-.74-.55h-.63c-.22 0-.57.08-.87.4-.3.32-1.15 1.12-1.15 2.73s1.18 3.17 1.34 3.39c.16.22 2.32 3.52 5.62 4.94.79.34 1.4.54 1.88.69.79.25 1.51.21 2.08.13.63-.09 1.9-.77 2.17-1.52.27-.75.27-1.39.19-1.52-.08-.13-.3-.21-.62-.37Z" />
     </svg>
-    <span>¿Cómo puedo ayudarte?</span>
+    <span>WhatsApp</span>
   </a>
 
   <script src="script.js"></script>

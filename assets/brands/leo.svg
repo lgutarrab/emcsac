@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 96" role="img" aria-labelledby="title">
+  <title id="title">LEO</title>
+  <g fill="#00827b">
+    <path d="M60 66h75c-10 11-28 17-52 17-25 0-43-7-54-21 8 4 19 5 31 4Z" opacity=".95"/>
+    <text x="54" y="58" font-family="Arial, Helvetica, sans-serif" font-size="45" font-weight="900" letter-spacing="-1">LEO</text>
+    <path d="M108 27c36-19 78-18 86 2-13-9-46-8-80 9Z"/>
+    <path d="M181 27c7 0 12 6 12 13 0 10-7 20-18 29 5-10 7-18 6-26-1-7-4-12-10-15 3-1 6-1 10-1Z"/>
+    <circle cx="197" cy="22" r="5" fill="none" stroke="#00827b" stroke-width="2"/>
+  </g>
+</svg>
