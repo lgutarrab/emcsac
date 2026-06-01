@@ -92,6 +92,14 @@ window.EMCSAC_GALLERY_DATA = {
 
     ],
     "gasfiteria.html": [
+            {
+        "src": "Imagenes/GASFITERIA/Instalación manifold/WhatsApp Image 2022-01-24 at 1.49.30 PM (1).jpeg",
+        "type": "image",
+        "filters": [
+          "instalacion-manifold"
+        ],
+        "caption": "Instalación manifold"
+      },
       {
         "src": "Imagenes/GASFITERIA/Instalación manifold/WhatsApp Image 2022-01-24 at 1.49.29 PM (1).jpeg",
         "type": "image",
@@ -100,14 +108,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Instalación manifold"
       },
-      {
-        "src": "Imagenes/GASFITERIA/Instalación manifold/WhatsApp Image 2022-01-24 at 1.49.30 PM (1).jpeg",
-        "type": "image",
-        "filters": [
-          "instalacion-manifold"
-        ],
-        "caption": "Instalación manifold"
-      },
+
       {
         "src": "Imagenes/GASFITERIA/Instalación manifold/WhatsApp Image 2022-01-25 at 10.20.44 AM (1).jpeg",
         "type": "image",
@@ -141,7 +142,14 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Niples línea descarga principal"
       },
-
+      {
+        "src": "Imagenes/GASFITERIA/ROMPE AGUA/64a123b1-0472-4f99-904f-5003401fa900.jpg",
+        "type": "image",
+        "filters": [
+          "rompe-agua"
+        ],
+        "caption": "Rompe agua"
+      },
       {
         "src": "Imagenes/GASFITERIA/ROMPE AGUA/1fcd1781-6eda-438a-9644-0a9368f4b20d.jpg",
         "type": "image",
@@ -151,14 +159,7 @@ window.EMCSAC_GALLERY_DATA = {
         "caption": "Rompe agua"
       },
 
-      {
-        "src": "Imagenes/GASFITERIA/ROMPE AGUA/64a123b1-0472-4f99-904f-5003401fa900.jpg",
-        "type": "image",
-        "filters": [
-          "rompe-agua"
-        ],
-        "caption": "Rompe agua"
-      },
+
       {
         "src": "Imagenes/GASFITERIA/ROMPE AGUA/6148cd0b-4c47-4f34-bf5e-d487f1839521.jpg",
         "type": "image",
@@ -295,6 +296,14 @@ window.EMCSAC_GALLERY_DATA = {
       }
     ],
     "sistema-piscina.html": [
+            {
+        "src": "Imagenes/PISCINA/Limpieza de filtro/WhatsApp Image 2026-03-12 at 10.12.45 AM (2).jpeg",
+        "type": "image",
+        "filters": [
+          "limpieza-de-filtro"
+        ],
+        "caption": "Limpieza de filtro"
+      },
       {
         "src": "Imagenes/PISCINA/Limpieza de filtro/WhatsApp Image 2026-03-12 at 10.12.42 AM.jpeg",
         "type": "image",
@@ -303,14 +312,7 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Limpieza de filtro"
       },
-      {
-        "src": "Imagenes/PISCINA/Limpieza de filtro/WhatsApp Image 2026-03-12 at 10.12.45 AM (2).jpeg",
-        "type": "image",
-        "filters": [
-          "limpieza-de-filtro"
-        ],
-        "caption": "Limpieza de filtro"
-      },
+
       {
         "src": "Imagenes/PISCINA/Mantenimiento de piscina/WhatsApp Video 2026-01-09 at 2.39.08 PM.mp4",
         "type": "video",

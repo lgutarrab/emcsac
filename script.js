@@ -30,6 +30,7 @@ const setNavOpen = (isOpen) => {
   if (!nav || !toggle) return;
   nav.classList.toggle("is-open", isOpen);
   toggle.setAttribute("aria-expanded", String(isOpen));
+  toggle.setAttribute("aria-label", isOpen ? "Cerrar menu" : "Abrir menu");
 };
 
 if (toggle && nav) {
@@ -155,6 +156,68 @@ const initBrandCarousel = () => {
 };
 
 initBrandCarousel();
+
+const initServiceReveal = () => {
+  const cards = Array.from(document.querySelectorAll(".service-card"));
+  if (!cards.length) return;
+
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const supportsScrollTimeline = window.CSS?.supports?.("animation-timeline: view()");
+  if (supportsScrollTimeline) return;
+
+  if (reducedMotion.matches) {
+    cards.forEach((card) => card.classList.add("is-visible"));
+    return;
+  }
+
+  cards.forEach((card) => card.classList.add("is-scroll-reveal"));
+
+  let ticking = false;
+
+  const cleanup = (card) => {
+    card.style.removeProperty("--reveal-delay");
+    card.style.removeProperty("will-change");
+  };
+
+  const revealVisibleCards = () => {
+    ticking = false;
+    const triggerLine = window.innerHeight * 0.86;
+    let revealBatchIndex = 0;
+
+    cards.forEach((card) => {
+      if (card.classList.contains("is-visible")) return;
+
+      const rect = card.getBoundingClientRect();
+      if (rect.top > triggerLine || rect.bottom < 0) return;
+
+      card.style.setProperty("--reveal-delay", `${Math.min(revealBatchIndex * 150, 450)}ms`);
+      card.classList.add("is-visible");
+      card.addEventListener("animationend", () => cleanup(card), { once: true });
+      revealBatchIndex += 1;
+    });
+
+    if (cards.every((card) => card.classList.contains("is-visible"))) {
+      window.removeEventListener("scroll", requestRevealCheck);
+      window.removeEventListener("resize", requestRevealCheck);
+    }
+  };
+
+  function requestRevealCheck() {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(revealVisibleCards);
+  }
+
+  window.requestAnimationFrame(() => {
+    window.requestAnimationFrame(() => {
+      revealVisibleCards();
+      window.addEventListener("scroll", requestRevealCheck, { passive: true });
+      window.addEventListener("resize", requestRevealCheck);
+    });
+  });
+};
+
+initServiceReveal();
 
 const normalizeFilter = (value) =>
   value
