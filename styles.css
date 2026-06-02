@@ -313,7 +313,7 @@ select {
 .section-kicker {
   margin: 0 0 14px;
   color: var(--accent);
-  font-size: 0.8rem;
+  font-size: 1.0rem;
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;

@@ -11,6 +11,7 @@ const videoExts = new Set([".mp4", ".webm", ".mov"]);
 const pageRoots = {
   "contra-incendios.html": "SISTEMA CONTRA INCENDIO",
   "gasfiteria.html": "GASFITERIA",
+  "aguas-residuales.html": "HIDRAULICO",
   "servicios-mecanicos.html": "MECANICO",
   "sistema-piscina.html": "PISCINA",
   "sistemas-electricos.html": "ELECTRICO",
