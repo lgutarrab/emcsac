@@ -1,5 +1,5 @@
 window.EMCSAC_GALLERY_DATA = {
-  "total": 72,
+  "total": 87,
   "pages": {
     "contra-incendios.html": [
       {
@@ -191,6 +191,130 @@ window.EMCSAC_GALLERY_DATA = {
         "caption": "Limpieza de pozos sépticos y sumideros"
       }
     ],
+    "saneamiento.html": [
+      {
+        "src": "Imagenes/SANEAMIENTO/Trampa de Grasa/WhatsApp Image 2026-06-02 at 5.04.11 PM (1).jpeg",
+        "type": "image",
+        "filters": [
+          "trampa-de-grasa"
+        ],
+        "caption": "Trampa de Grasa"
+      },
+      {
+        "src": "Imagenes/SANEAMIENTO/Trampa de Grasa/WhatsApp Image 2026-06-02 at 5.04.11 PM (2).jpeg",
+        "type": "image",
+        "filters": [
+          "trampa-de-grasa"
+        ],
+        "caption": "Trampa de Grasa"
+      },
+      {
+        "src": "Imagenes/SANEAMIENTO/Trampa de Grasa/WhatsApp Image 2026-06-02 at 5.04.11 PM.jpeg",
+        "type": "image",
+        "filters": [
+          "trampa-de-grasa"
+        ],
+        "caption": "Trampa de Grasa"
+      }
+    ],
+    "control-plagas-fumigacion.html": [
+      {
+        "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Desinsectación/desinsectacion2.jpeg",
+        "type": "image",
+        "filters": [
+          "desinsectacion"
+        ],
+        "caption": "Desinsectación"
+      },
+      {
+        "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Desinsectación/desinsectacion3.jpeg",
+        "type": "image",
+        "filters": [
+          "desinsectacion"
+        ],
+        "caption": "Desinsectación"
+      },
+      {
+        "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Desinsectación/desinsectacionjpeg.jpeg",
+        "type": "image",
+        "filters": [
+          "desinsectacion"
+        ],
+        "caption": "Desinsectación"
+      },
+      {
+        "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Desratización/desratizacion.jfif",
+        "type": "image",
+        "filters": [
+          "desratizacion"
+        ],
+        "caption": "Desratización"
+      },
+      {
+        "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Desratización/desratizacion1.jpeg",
+        "type": "image",
+        "filters": [
+          "desratizacion"
+        ],
+        "caption": "Desratización"
+      },
+      {
+        "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Desratización/desratizacionjpeg.jpeg",
+        "type": "image",
+        "filters": [
+          "desratizacion"
+        ],
+        "caption": "Desratización"
+      },
+      {
+        "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Fumigación/9607e87c-0aa8-4690-a7f8-a6eb9e4d68bd.jfif",
+        "type": "image",
+        "filters": [
+          "fumigacion"
+        ],
+        "caption": "Fumigación"
+      },
+      {
+        "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Fumigación/fumigacion.jpeg",
+        "type": "image",
+        "filters": [
+          "fumigacion"
+        ],
+        "caption": "Fumigación"
+      },
+      {
+        "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Fumigación/fumigacion1.jpeg",
+        "type": "image",
+        "filters": [
+          "fumigacion"
+        ],
+        "caption": "Fumigación"
+      },
+      {
+        "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Fumigación/WhatsApp Image 2026-06-05 at 3.26.09 PM (1).jpeg",
+        "type": "image",
+        "filters": [
+          "fumigacion"
+        ],
+        "caption": "Fumigación"
+      },
+      {
+        "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Fumigación/WhatsApp Image 2026-06-05 at 3.26.09 PM (2).jpeg",
+        "type": "image",
+        "filters": [
+          "fumigacion"
+        ],
+        "caption": "Fumigación"
+      },
+      {
+        "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Fumigación/WhatsApp Image 2026-06-05 at 3.26.09 PM.jpeg",
+        "type": "image",
+        "filters": [
+          "fumigacion"
+        ],
+        "caption": "Fumigación"
+      }
+    ],
     "servicios-mecanicos.html": [
       {
         "src": "Imagenes/MECANICO/Damper motorizado/WhatsApp Image 2026-05-04 at 10.50.26 AM.jpeg",
@@ -241,14 +365,6 @@ window.EMCSAC_GALLERY_DATA = {
         "caption": "Extractores de monóxido de carbono"
       },
       {
-        "src": "Imagenes/MECANICO/Inyección y Extracción de Aire/WhatsApp Image 2026-06-02 at 9.10.15 AM (1).jpeg",
-        "type": "image",
-        "filters": [
-          "inyeccion-y-extraccion-de-aire"
-        ],
-        "caption": "Inyección y extracción de aire"
-      },
-      {
         "src": "Imagenes/MECANICO/Inyección y Extracción de Aire/WhatsApp Image 2026-06-02 at 8.55.48 AM (1).jpeg",
         "type": "image",
         "filters": [
@@ -264,7 +380,14 @@ window.EMCSAC_GALLERY_DATA = {
         ],
         "caption": "Inyección y extracción de aire"
       },
-      
+      {
+        "src": "Imagenes/MECANICO/Inyección y Extracción de Aire/WhatsApp Image 2026-06-02 at 9.10.15 AM (1).jpeg",
+        "type": "image",
+        "filters": [
+          "inyeccion-y-extraccion-de-aire"
+        ],
+        "caption": "Inyección y extracción de aire"
+      },
       {
         "src": "Imagenes/MECANICO/Jet Fan/WhatsApp Image 2026-05-04 at 10.50.36 AM (8).jpeg",
         "type": "image",
@@ -467,7 +590,7 @@ window.EMCSAC_GALLERY_DATA = {
         "filters": [
           "tableros-electricos"
         ],
-        "caption": "Tableros eléctricos"
+        "caption": "Instalación de tableros eléctricos"
       },
       {
         "src": "Imagenes/ELECTRICO/Tableros eléctricos/bf3cebd4-9039-4e4e-89ff-fc24acb87db8.jpg",
@@ -475,7 +598,7 @@ window.EMCSAC_GALLERY_DATA = {
         "filters": [
           "tableros-electricos"
         ],
-        "caption": "Tableros eléctricos"
+        "caption": "Instalación de tableros eléctricos"
       },
       {
         "src": "Imagenes/ELECTRICO/Tableros eléctricos/d0339e77-1aec-47fa-bb5f-f2ae782a4c32.jpg",
@@ -483,7 +606,7 @@ window.EMCSAC_GALLERY_DATA = {
         "filters": [
           "tableros-electricos"
         ],
-        "caption": "Tableros eléctricos"
+        "caption": "Instalación de tableros eléctricos"
       }
     ],
     "sistemas-hidraulicos.html": [

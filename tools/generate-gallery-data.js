@@ -5,13 +5,15 @@ const rootDir = path.resolve(__dirname, "..");
 const imageRoot = path.join(rootDir, "Imagenes");
 const outputFile = path.join(rootDir, "gallery-data.js");
 
-const mediaExts = new Set([".jpg", ".jpeg", ".png", ".webp", ".gif", ".mp4", ".webm", ".mov"]);
+const mediaExts = new Set([".jpg", ".jpeg", ".jfif", ".png", ".webp", ".gif", ".mp4", ".webm", ".mov"]);
 const videoExts = new Set([".mp4", ".webm", ".mov"]);
 
 const pageRoots = {
   "contra-incendios.html": "SISTEMA CONTRA INCENDIO",
   "gasfiteria.html": "GASFITERIA",
   "aguas-residuales.html": "HIDRAULICO",
+  "saneamiento.html": "SANEAMIENTO",
+  "control-plagas-fumigacion.html": "CONTROL DE PLAGAS Y FUMIGACION",
   "servicios-mecanicos.html": "MECANICO",
   "sistema-piscina.html": "PISCINA",
   "sistemas-electricos.html": "ELECTRICO",
