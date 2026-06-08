@@ -151,7 +151,7 @@ window.EMCSAC_GALLERY_DATA = {
     ],
     "aguas-residuales.html": [
       {
-        "src": "Imagenes/HIDRAULICO/Limpieza de cisterna de agua potable/5b0ed12a-52a3-4aae-9c53-bfe7a4cd226d.jpg",
+        "src": "Imagenes/HIDRAULICO/Limpieza de Cisterna de agua potable/5b0ed12a-52a3-4aae-9c53-bfe7a4cd226d.jpg",
         "type": "image",
         "filters": [
           "limpieza-de-cisterna-de-agua-potable"
