@@ -1,5 +1,5 @@
 window.EMCSAC_GALLERY_DATA = {
-  "total": 87,
+  "total": 85,
   "pages": {
     "contra-incendios.html": [
       {
@@ -149,9 +149,9 @@ window.EMCSAC_GALLERY_DATA = {
         "caption": "Rompe agua"
       }
     ],
-    "aguas-residuales.html": [
+    "Limpieza_Cisternas.html": [
       {
-        "src": "Imagenes/HIDRAULICO/Limpieza de Cisterna de agua potable/5b0ed12a-52a3-4aae-9c53-bfe7a4cd226d.jpg",
+        "src": "Imagenes/LIMPIEZA DE CISTERNA/Limpieza de cisterna de agua potable/5b0ed12a-52a3-4aae-9c53-bfe7a4cd226d.jpg",
         "type": "image",
         "filters": [
           "limpieza-de-cisterna-de-agua-potable"
@@ -159,7 +159,7 @@ window.EMCSAC_GALLERY_DATA = {
         "caption": "Limpieza de cisterna"
       },
       {
-        "src": "Imagenes/HIDRAULICO/Limpieza de cisterna de agua potable/24afc9d3-a676-418e-9f69-0f885a2cd020.jpg",
+        "src": "Imagenes/LIMPIEZA DE CISTERNA/Limpieza de cisterna de agua potable/24afc9d3-a676-418e-9f69-0f885a2cd020.jpg",
         "type": "image",
         "filters": [
           "limpieza-de-cisterna-de-agua-potable"
@@ -167,7 +167,7 @@ window.EMCSAC_GALLERY_DATA = {
         "caption": "Limpieza de cisterna"
       },
       {
-        "src": "Imagenes/HIDRAULICO/Limpieza de cisterna de agua potable/edbd8d15-792a-4aca-8a77-7ba6a8245a2e.jpg",
+        "src": "Imagenes/LIMPIEZA DE CISTERNA/Limpieza de cisterna de agua potable/edbd8d15-792a-4aca-8a77-7ba6a8245a2e.jpg",
         "type": "image",
         "filters": [
           "limpieza-de-cisterna-de-agua-potable"
@@ -175,7 +175,7 @@ window.EMCSAC_GALLERY_DATA = {
         "caption": "Limpieza de cisterna"
       },
       {
-        "src": "Imagenes/HIDRAULICO/Limpieza de pozos sépticos y sumideros/WhatsApp Image 2026-03-31 at 12.08.26 PM (3).jpeg",
+        "src": "Imagenes/LIMPIEZA DE CISTERNA/Limpieza de pozos sépticos y sumideros/WhatsApp Image 2026-03-31 at 12.08.26 PM (3).jpeg",
         "type": "image",
         "filters": [
           "limpieza-de-pozos-septicos-y-sumideros"
@@ -183,7 +183,7 @@ window.EMCSAC_GALLERY_DATA = {
         "caption": "Limpieza de pozos sépticos y sumideros"
       },
       {
-        "src": "Imagenes/HIDRAULICO/Limpieza de pozos sépticos y sumideros/WhatsApp Image 2026-03-31 at 12.08.26 PM (4).jpeg",
+        "src": "Imagenes/LIMPIEZA DE CISTERNA/Limpieza de pozos sépticos y sumideros/WhatsApp Image 2026-03-31 at 12.08.26 PM (4).jpeg",
         "type": "image",
         "filters": [
           "limpieza-de-pozos-septicos-y-sumideros"
@@ -191,7 +191,7 @@ window.EMCSAC_GALLERY_DATA = {
         "caption": "Limpieza de pozos sépticos y sumideros"
       }
     ],
-    "saneamiento.html": [
+    "Aguas_Residuales.html": [
       {
         "src": "Imagenes/SANEAMIENTO/Trampa de Grasa/WhatsApp Image 2026-06-02 at 5.04.11 PM (1).jpeg",
         "type": "image",
@@ -267,14 +267,6 @@ window.EMCSAC_GALLERY_DATA = {
         "caption": "Desratización"
       },
       {
-        "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Fumigación/9607e87c-0aa8-4690-a7f8-a6eb9e4d68bd.jfif",
-        "type": "image",
-        "filters": [
-          "fumigacion"
-        ],
-        "caption": "Fumigación"
-      },
-      {
         "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Fumigación/fumigacion.jpeg",
         "type": "image",
         "filters": [
@@ -283,23 +275,15 @@ window.EMCSAC_GALLERY_DATA = {
         "caption": "Fumigación"
       },
       {
+        "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Fumigación/Fumigación.jpeg",
+        "type": "image",
+        "filters": [
+          "fumigacion"
+        ],
+        "caption": "Fumigación"
+      },
+      {
         "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Fumigación/fumigacion1.jpeg",
-        "type": "image",
-        "filters": [
-          "fumigacion"
-        ],
-        "caption": "Fumigación"
-      },
-      {
-        "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Fumigación/WhatsApp Image 2026-06-05 at 3.26.09 PM (1).jpeg",
-        "type": "image",
-        "filters": [
-          "fumigacion"
-        ],
-        "caption": "Fumigación"
-      },
-      {
-        "src": "Imagenes/CONTROL DE PLAGAS Y FUMIGACION/Fumigación/WhatsApp Image 2026-06-05 at 3.26.09 PM (2).jpeg",
         "type": "image",
         "filters": [
           "fumigacion"
