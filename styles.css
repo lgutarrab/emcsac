@@ -1,15 +1,15 @@
 :root {
-  --ink: #111827;
-  --muted: #596575;
-  --line: #dde5ed;
-  --surface: #f3f6f9;
+  --ink: #17120e;
+  --muted: #6e5a4c;
+  --line: #e5cdb8;
+  --surface: #fff7f0;
   --soft: #ffffff;
-  --brand: #0b5fa5;
-  --brand-strong: #07345f;
-  --accent: #f1b521;
+  --brand: #e65b18;
+  --brand-strong: #8f2d09;
+  --accent: #ff9b36;
   --success: #1f7a55;
-  --plant: #07111f;
-  --shadow: 0 24px 70px rgba(9, 41, 76, 0.14);
+  --plant: #17120e;
+  --shadow: 0 20px 48px rgba(49, 19, 4, 0.16);
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -91,7 +91,7 @@ select {
   gap: clamp(16px, 3vw, 34px);
   min-height: 82px;
   padding: 8px clamp(18px, 5vw, 72px);
-  background: rgba(255, 255, 255, 0.94);
+  background: rgba(255, 248, 242, 0.94);
   color: var(--ink);
   box-shadow: 0 12px 34px rgba(9, 41, 76, 0.08);
   backdrop-filter: blur(16px);
@@ -1038,7 +1038,7 @@ select {
 
 .cta {
   background:
-    linear-gradient(90deg, rgba(5, 21, 38, 0.92), rgba(5, 21, 38, 0.72)),
+    linear-gradient(110deg, rgba(23, 18, 14, 0.97) 0%, rgba(23, 18, 14, 0.92) 42%, rgba(143, 45, 9, 0.86) 100%),
     url("assets/services/tableros-electricos.jpg")
     center / cover;
   color: #fff;
@@ -1048,7 +1048,8 @@ select {
   width: min(1180px, calc(100% - 40px));
   margin: 0 auto;
   padding: 88px 0;
-  align-items: center;
+  align-items: start;
+  row-gap: 30px;
 }
 
 .contact-copy {
@@ -1057,11 +1058,108 @@ select {
   gap: 22px;
 }
 
+.contact-details {
+  display: grid;
+  gap: 0;
+  margin: 4px 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.26);
+  font-style: normal;
+}
+
+.contact-details > div {
+  display: grid;
+  gap: 3px;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.contact-details span {
+  color: var(--accent);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.contact-details strong,
+.contact-details a {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 750;
+  overflow-wrap: anywhere;
+}
+
+.contact-details a:hover { color: var(--accent); }
+
+.contact-details small {
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 0.9rem;
+}
+
 .contact-panel {
   display: grid;
   gap: 14px;
   justify-self: end;
-  width: min(100%, 440px);
+  width: min(100%, 680px);
+}
+
+.contact-form {
+  display: grid;
+  gap: 12px;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.26);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.contact-form label {
+  display: grid;
+  gap: 6px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.form-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.96);
+  color: var(--ink);
+}
+
+.contact-form textarea { resize: vertical; }
+.contact-submit { width: 100%; justify-content: center; }
+
+.contact-map-wrap {
+  display: grid;
+  grid-template-rows: minmax(230px, 1fr) auto;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.contact-map-wide {
+  grid-column: 1 / -1;
+  grid-template-rows: minmax(320px, 430px) auto;
+}
+
+.contact-map { width: 100%; height: 100%; min-height: 230px; border: 0; }
+
+.map-address {
+  padding: 10px 12px;
+  background: var(--accent);
+  color: var(--plant);
+  font-size: 0.8rem;
+  font-weight: 800;
+  line-height: 1.35;
 }
 
 .contact-links > a > span,
@@ -1526,6 +1624,14 @@ select {
   .hero-actions,
   .button {
     width: 100%;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-map-wrap {
+    grid-template-rows: 250px auto;
   }
 
   .hero-proof {

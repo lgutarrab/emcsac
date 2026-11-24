@@ -219,6 +219,27 @@ const initServiceReveal = () => {
 
 initServiceReveal();
 
+const whatsappForm = document.querySelector("[data-whatsapp-form]");
+
+if (whatsappForm) {
+  whatsappForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    if (!whatsappForm.reportValidity()) return;
+
+    const fields = new FormData(whatsappForm);
+    const message = [
+      "Hola EMCSAC, deseo solicitar una cotización.",
+      `Nombre: ${fields.get("nombre")}`,
+      `Teléfono: ${fields.get("telefono")}`,
+      fields.get("correo") ? `Correo: ${fields.get("correo")}` : "",
+      `Servicio: ${fields.get("servicio")}`,
+      fields.get("mensaje") ? `Detalle: ${fields.get("mensaje")}` : ""
+    ].filter(Boolean).join("\n");
+
+    window.open(`https://wa.me/51992779304?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
+  });
+}
+
 const normalizeFilter = (value) =>
   value
     .toString()
