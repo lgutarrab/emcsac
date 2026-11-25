@@ -151,7 +151,7 @@ window.EMCSAC_GALLERY_DATA = {
     ],
     "Limpieza_Cisternas.html": [
       {
-        "src": "Imagenes/LIMPIEZA DE CISTERNA/Limpieza de cisterna de agua potable/5b0ed12a-52a3-4aae-9c53-bfe7a4cd226d.jpg",
+        "src": "Imagenes/LIMPIEZA DE CISTERNA/Limpieza de cisterna de agua potable/5b0ed12a-52a3-4aae-9c53-bfe7a4cd226d.jpeg",
         "type": "image",
         "filters": [
           "limpieza-de-cisterna-de-agua-potable"
@@ -159,21 +159,21 @@ window.EMCSAC_GALLERY_DATA = {
         "caption": "Limpieza de cisterna"
       },
       {
-        "src": "Imagenes/LIMPIEZA DE CISTERNA/Limpieza de cisterna de agua potable/24afc9d3-a676-418e-9f69-0f885a2cd020.jpg",
+        "src": "Imagenes/LIMPIEZA DE CISTERNA/Limpieza de cisterna de agua potable/24afc9d3-a676-418e-9f69-0f885a2cd020.jpeg",
         "type": "image",
         "filters": [
           "limpieza-de-cisterna-de-agua-potable"
         ],
         "caption": "Limpieza de cisterna"
       },
-      {
-        "src": "Imagenes/LIMPIEZA DE CISTERNA/Limpieza de cisterna de agua potable/edbd8d15-792a-4aca-8a77-7ba6a8245a2e.jpg",
-        "type": "image",
-        "filters": [
-          "limpieza-de-cisterna-de-agua-potable"
-        ],
-        "caption": "Limpieza de cisterna"
-      },
+      // {
+      //   "src": "Imagenes/LIMPIEZA DE CISTERNA/Limpieza de cisterna de agua potable/edbd8d15-792a-4aca-8a77-7ba6a8245a2e.jpg",
+      //   "type": "image",
+      //   "filters": [
+      //     "limpieza-de-cisterna-de-agua-potable"
+      //   ],
+      //   "caption": "Limpieza de cisterna"
+      // },
       {
         "src": "Imagenes/LIMPIEZA DE CISTERNA/Limpieza de pozos sépticos y sumideros/WhatsApp Image 2026-03-31 at 12.08.26 PM (3).jpeg",
         "type": "image",

@@ -543,6 +543,8 @@ select {
   margin: 0;
   color: rgba(255, 255, 255, 0.82);
   font-size: clamp(1rem, 1.2vw, 1.1rem);
+  text-align: justify;
+  text-align-last: left;
 }
 
 .about-pillars {
@@ -582,6 +584,8 @@ select {
 .about-pillar p {
   margin: 0;
   color: rgba(255, 255, 255, 0.76);
+  text-align: justify;
+  text-align-last: left;
 }
 
 .service-grid {
